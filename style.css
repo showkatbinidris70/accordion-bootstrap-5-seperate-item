@@ -1,0 +1,35 @@
+ul,
+ol,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.report-download-bar .student-name {
+  color: var(--text_dark);
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.report-download-bar .download-btn-icon {
+  border-radius: 100px;
+  background-color: #fffae6;
+  display: flex;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+}
+/* report-download-bar end */
